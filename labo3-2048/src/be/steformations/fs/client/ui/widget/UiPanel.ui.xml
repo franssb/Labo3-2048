@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:fs="urn:import:be.steformations.fs.client.ui.widget">
+
+<m:MaterialPanel>
+<m:MaterialRow>
+
+	<m:MaterialColumn>
+		<fs:UpButton text="up" ui:field="upButton"/>
+	</m:MaterialColumn>
+	<m:MaterialColumn>
+		<fs:DownButton text="down" ui:field="downButton"/>
+	</m:MaterialColumn>
+	<m:MaterialColumn>
+		<fs:LeftButton text="left" ui:field="leftButton"/>
+	</m:MaterialColumn>
+	<m:MaterialColumn>
+		<fs:RightButton text="right" ui:field="rightButton"/>
+	</m:MaterialColumn>
+	
+</m:MaterialRow>
+
+<m:MaterialRow>
+<fs:Grille>
+
+</fs:Grille>
+</m:MaterialRow>
+
+</m:MaterialPanel>
+
+
+</ui:UiBinder> 
